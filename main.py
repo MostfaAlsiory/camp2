@@ -3,7 +3,7 @@ import pymysql
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/1')
 def index():
    
     return render_template('file.htm')
