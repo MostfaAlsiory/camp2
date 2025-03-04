@@ -3,10 +3,10 @@ import pymysql
 
 app = Flask(__name__)
 
-@app.route('/1')
+@app.route('/')
 def index():
    
-    return render_template('file.htm')
+    return render_template('file1.htm')
 
 
 
